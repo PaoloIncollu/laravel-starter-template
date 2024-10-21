@@ -19,21 +19,10 @@
 @endphp
 
 <header>
-    <nav>
-        <ul>
-            @foreach ($links as $link)
-                <li>
-                    @if ($link['active'])
-                        <a href="{{ $link['url'] }}">
-                            {{ $link['label'] }}
-                        </a>
-                    @else
-                        <del>
-                            {{ $link['label'] }}
-                        </del>
-                    @endif
-                </li>
-            @endforeach
-        </ul>
-    </nav>
+    <section class="Gaetano">
+        <h1>
+            Gaetano Venuto
+        </h1>
+    </section>
+    
 </header>
